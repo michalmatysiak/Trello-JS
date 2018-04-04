@@ -1,0 +1,95 @@
+body {
+  background-image: url('https://images.pexels.com/photos/975399/pexels-photo-975399.jpeg?cs=srgb&dl=architecture-buildings-city-975399.jpg&fm=jpg');
+  color: #fff;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.board h1 {
+  text-align: center;
+  background-color: #171a20;
+  margin: 0;
+  padding: 20px;
+  color: #999;
+  display: block;
+  opacity: 0.8;
+}
+.create-column {
+  background-color: #171a20;
+  margin: 0 auto;
+  margin-top: 130px;
+  font-size: 20px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 80px;
+  padding: 15px;
+  border-radius: 5%;
+  color: #999;
+  border: 2px solid #000;
+  outline: none;
+}
+.create-column:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  opacity: 1;
+}
+.column-container {
+  margin: 50px auto;
+  max-width: 1200px;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+.column {
+   flex-direction: column;
+   background-color: #171a20;
+   display: inline-flex;
+   margin: 10px;
+   opacity: 0.8;
+   padding: 20px;
+   min-width: 250px;
+   min-height: 20%;
+}
+.column-title {
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+.add-card {
+  margin-top: 40px;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: bold;
+  padding: 2%;
+  color: #000;
+}
+.btn-delete {
+  margin-left: 15px;
+  width: 25px;
+  margin-right: 5%;
+  height: 25px;
+  padding: 0;
+  text-align: center;
+  margin-top: -26%;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+.card {
+  margin: 10px;
+  background-color: #d3d3d3;
+  padding: 10px;
+}
+.column-card-list {
+  background-color: #add8e6;
+  list-style: none;
+  padding: 0;
+  min-height: 20px;
+}
